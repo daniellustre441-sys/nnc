@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Negros College | BSCS - Center of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for High-Tech Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cyber Background Grid & Ambient Glows -->
+    <div class="tech-bg-grid"></div>
+    <div class="glow-orb glow-1"></div>
+    <div class="glow-orb glow-2"></div>
+
+    <!-- High-Tech Sticky Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">
+                <span class="terminal-prompt">&gt;</span> NNC_<span class="highlight">BSCS</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About NNC</a>
+                <a href="#bscs">Curriculum</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#videos">Videos</a>
+                <a href="#contact" class="nav-cta">Connect</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Brand Banner -->
+    <header class="site-header">
+        <div class="header-content">
+            <img src="images/logo1.jpg" alt="North Negros College Logo" class="logo1">
+            <div class="school-title">
+                <div class="badge">ESTABLISHED CENTER OF EXCELLENCE</div>
+                <h1>North Negros College</h1>
+                <p>Bachelor of Science in Computer Science (BSCS)</p>
+            </div>
+            <img src="images/logo2.jpg" alt="iNNOVARE Logo" class="logo2">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="tech-tag">&lt;future_ready /&gt;</div>
+            <h2>Architecting Tomorrow's Innovators</h2>
+            <p>Empowering the next generation of software engineers, cybersecurity experts, and AI pioneers through advanced technology and rigorous academic discipline.</p>
+            <div class="hero-actions">
+                <a href="#bscs" class="btn-primary">Initialize BSCS Program</a>
+                <a href="#about" class="btn-secondary">Explore Institution</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="tech-section">
+        <div class="section-header">
+            <h2>// About North Negros College</h2>
+            <p>Pioneering holistic education and technological excellence in Negros Island.</p>
+        </div>
+        
+        <div class="about-grid">
+            <div class="glass-card main-desc">
+                <p>
+                    <b>North Negros College</b> is committed to providing students with quality education and preparing them for successful careers in a tech-driven world. The institution promotes academic excellence, leadership, discipline, responsibility, and cutting-edge technological innovation within a dynamic learning ecosystem.
+                </p>
+            </div>
+            
+            <div class="glass-card info-card">
+                <h3><span class="accent">⚡</span> Mission</h3>
+                <p>To produce socially conscientious, responsible, highly skilled, and globally competitive graduates, fostering a vibrant learning community for student success.</p>
+            </div>
+
+            <div class="glass-card info-card">
+                <h3><span class="accent">🔮</span> Vision</h3>
+                <p>"North Negros College is the foremost provider of holistic and God-centered quality education committed to contribute to the socio-economic development of Negros Island."</p>
+            </div>
+
+            <div class="glass-card info-card span-2">
+                <h3><span class="accent">💎</span> Core Values & Philosophy</h3>
+                <p class="philosophy"><b>Philosophy:</b> Education is our passion.</p>
+                <div class="values-badges">
+                    <span class="badge-pill"><b>Noble</b> in Character</span>
+                    <span class="badge-pill"><b>Nimble</b> in Action</span>
+                    <span class="badge-pill"><b>Competent</b> in Outcomes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BSCS Section -->
+    <section id="bscs" class="tech-section">
+        <div class="section-header">
+            <h2>// Bachelor of Science in Computer Science</h2>
+            <p>A premier 4-year degree engineered for mastering modern tech stacks, algorithms, and systems.</p>
+        </div>
+
+        <div class="bscs-overview glass-card">
+            <p>BSCS is a rigorous program focused on advanced programming, software engineering, intelligent systems, database architecture, network security, and emerging digital technologies.</p>
+        </div>
+
+        <h3 class="subsection-title">Core Competencies & Modules</h3>
+        
+        <div class="reasons">
+            <div class="module-column">
+                <h4>Core Development</h4>
+                <ul>
+                    <li>Advanced Programming Languages</li>
+                    <li>Full-Stack Web & Mobile Applications</li>
+                    <li>Software Engineering Methodologies</li>
+                    <li>Data Structures & Complex Algorithms</li>
+                    <li>Database Management & Cloud Architecture</li>
+                </ul>
+            </div>
+            <div class="module-column">
+                <h4>Advanced Tech & Systems</h4>
+                <ul>
+                    <li>Artificial Intelligence & Machine Learning</li>
+                    <li>Cybersecurity & Network Defense</li>
+                    <li>Cloud Computing & DevOps Pipelines</li>
+                    <li>System Analysis & Problem Solving</li>
+                    <li>Enterprise Project Experience</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="tech-section">
+        <div class="section-header">
+            <h2>// Campus & Facility Gallery</h2>
+            <p>A visual tour of innovation labs, student life, and campus grounds. Click any image to launch viewer.</p>
+        </div>
+
+        <div class="gallery">
+            <img src="images/pic1.jpg" alt="Photo 1" onclick="openLightbox(this)">
+            <img src="images/pic2.jpg" alt="Photo 2" onclick="openLightbox(this)">
+            <img src="images/pic3.jpg" alt="Photo 3" onclick="openLightbox(this)">
+            <img src="images/pic4.jpg" alt="Photo 4" onclick="openLightbox(this)">
+            <img src="images/pic5.jpg" alt="Photo 5" onclick="openLightbox(this)">
+            <img src="images/pic6.jpg" alt="Photo 6" onclick="openLightbox(this)">
+            <img src="images/pic7.jpg" alt="Photo 7" onclick="openLightbox(this)">
+            <img src="images/pic8.jpg" alt="Photo 8" onclick="openLightbox(this)">
+            <img src="images/pic9.jpg" alt="Photo 9" onclick="openLightbox(this)">
+            <img src="images/pic10.jpg" alt="Photo 10" onclick="openLightbox(this)">
+            <img src="images/pic11.jpg" alt="Photo 11" onclick="openLightbox(this)">
+            <img src="images/pic12.jpg" alt="Photo 12" onclick="openLightbox(this)">
+            <img src="images/pic13.jpg" alt="Photo 13" onclick="openLightbox(this)">
+            <img src="images/pic14.jpg" alt="Photo 14" onclick="openLightbox(this)">
+            <img src="images/pic15.jpg" alt="Photo 15" onclick="openLightbox(this)">
+        </div>
+    </section>
+
+    <!-- High-Tech Cyber Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <div class="lightbox-nav-bar">
+            <button class="lightbox-back-btn" onclick="closeLightbox()">
+                <span class="back-arrow">←</span> Back to Webpage
+            </button>
+            <span id="lightboxCaption" class="lightbox-caption">SYSTEM_VIEWER // IMG_STREAM</span>
+        </div>
+        <div class="lightbox-content-wrapper">
+            <img id="lightboxImg" src="" alt="Enlarged View">
+        </div>
+    </div>
+
+    <!-- Videos Section -->
+    <section id="videos" class="tech-section">
+        <div class="section-header">
+            <h2>// Campus & BSCS Streams</h2>
+            <p>Watch recorded sessions, project highlights, and facility walkthroughs.</p>
+        </div>
+
+        <div class="videos">
+            <video controls><source src="videos/vid1.mp4" type="video/mp4"></video>
+            <video controls><source src="videos/vid2.mp4" type="video/mp4"></video>
+            <video controls><source src="videos/vid3.mp4" type="video/mp4"></video>
+            <video controls><source src="videos/vid4.mp4" type="video/mp4"></video>
+            <video controls><source src="videos/vid5.mp4" type="video/mp4"></video>
+            <video controls><source src="videos/vid6.mp4" type="video/mp4"></video>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="tech-section">
+        <div class="glass-card contact-card">
+            <h2>// Secure Connection / Contact</h2>
+            <p>Get in touch with admissions or department administration.</p>
+            <div class="contact-info-grid">
+                <div class="contact-item">
+                    <span class="c-icon">📧</span>
+                    <div>
+                        <small>Email Address</small>
+                        <p>info@northnegroscollege.edu.ph</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="c-icon">📞</span>
+                    <div>
+                        <small>Phone Support</small>
+                        <p>(034) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="c-icon">📍</span>
+                    <div>
+                        <small>Campus Location</small>
+                        <p>North Negros College, Negros Occidental, Philippines</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 North Negros College | Bachelor of Science in Computer Science. All Systems Nominal.</p>
+    </footer>
+
+    <!-- Lightbox Scripting -->
+    <script>
+        function openLightbox(imgElement) {
+            const modal = document.getElementById('lightboxModal');
+            const modalImg = document.getElementById('lightboxImg');
+            const caption = document.getElementById('lightboxCaption');
+            
+            modal.style.display = 'flex';
+            modalImg.src = imgElement.src;
+            caption.textContent = `SYSTEM_VIEWER // ${imgElement.alt.toUpperCase()}`;
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightboxModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Close on background click or ESC key
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('lightboxModal');
+            if (event.target === modal) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                closeLightbox();
+            }
+        });
+    </script>
+
+</body>
+</html>
